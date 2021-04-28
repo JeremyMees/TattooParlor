@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-schemes" content="dark" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>𝕭𝖔𝖓𝖊𝖘 𝖙𝖆𝖙𝖙𝖔𝖔 𝖕𝖆𝖗𝖑𝖔𝖚𝖗</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Roboto&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="brand">𝕭𝖔𝖓𝖊𝖘 𝖙𝖆𝖙𝖙𝖔𝖔 𝖕𝖆𝖗𝖑𝖔𝖚𝖗</div>
+      <div class="nav-item care-open">Verzorging</div>
+      <div class="nav-item open-hours">Contact</div>
+      <div class="nav-item dropdown">
+        <div class="nav-item">Artiesten ▼</div>
+        <div class="dropdown-content">
+          <p class="open-artist-denny">Denny</p>
+          <p>test</p>
+        </div>
+      </div>
+      <a href="mailto:bonestattooparlour@gmail.com">
+        <div class="nav-item appointment">Maak afspraak</div>
+      </a>
+    </nav>
+
+    <nav class="topnav">
+      <div class="brand">𝕭𝖔𝖓𝖊𝖘 𝖙𝖆𝖙𝖙𝖔𝖔 𝖕𝖆𝖗𝖑𝖔𝖚𝖗</div>
+      <div id="myLinks">
+        <a href="mailto:bonestattooparlour@gmail.com">
+          <div class="appointment topnav-app">Maak afspraak</div>
+        </a>
+        <div class="dropdown">
+          <div class="topnav-item">Artiesten ▼</div>
+          <div class="dropdown-content dropdown-topnav">
+            <p class="topnav-item open-artist-denny-ham">Denny</p>
+            <p class="topnav-item">test</p>
+          </div>
+        </div>
+        <div class="topnav-item open-hours-ham">Contact</div>
+        <div class="topnav-item care-open-ham">Verzorging</div>
+      </div>
+      <div class="icon" onclick="hamburgerOpen()">
+        <i class="fa fa-bars"></i>
+      </div>
+    </nav>
+
+    <div class="mock-modal">
+      <div class="mock-modal-content">
+        <button class="close-mock close-modal">
+          <img src="./assets/close.svg" alt="Close button" class="footer-icon" />
+        </button>
+        <h1 class="mock-title">Dit is een mock up</h1>
+        <div class="mock-text">
+          Dit is geen officiële website voor <b>Bones Tattoo Parlour</b> maar als je toch geïnteresseerd zou zijn kan je
+          altijd contact opnemen met de artiest. <br />
+          <br />
+          <div class="middle">
+            Deze website is gemaakt voor bewijs van kunnen te laten zien aan de klanten van <br />
+            <b> web design mees</b>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="artist-denny-modal">
+      <div class="artist-denny-modal-content">
+        <button class="close-artist-denny close-modal">
+          <img src="./assets/close.svg" alt="Close button" class="footer-icon" />
+        </button>
+        <h1 class="artist-name">𝕯𝖊𝖓𝖓𝖞 𝖛𝖊𝖗𝖍𝖎𝖑𝖑𝖊</h1>
+        <div class="img-artist-container">
+          <img src="./assets/denny.png" alt="Image of denny the tattoo artist" class="img-artist denny" />
+        </div>
+        <h1 class="about-me">𝖔𝖛𝖊𝖗 𝖒𝖎𝖏</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate deleniti sit eveniet tempore illum
+        provident in similique! Sit facere sequi tempore ea similique vero quibusdam non quisquam voluptatum sapiente.
+        Temporibus alias ipsam delectus totam iusto deleniti natus harum mollitia placeat, molestias error accusamus
+        saepe nulla reiciendis laborum nisi at maxime, laboriosam enim a possimus, odio ab excepturi. Consectetur, quod!
+      </div>
+    </div>
+
+    <div class="hours-modal">
+      <div class="hours-modal-content">
+        <button class="close-modal close-hours">
+          <img src="./assets/close.svg" alt="Close button" class="footer-icon" />
+        </button>
+        <div class="hours-container">
+          <h1 class="hours-title">𝖈𝖔𝖓𝖙𝖆𝖈𝖙</h1>
+
+          <div class="contact-item">
+            <a href="https://www.facebook.com/bonestattooparlour" target="_blank">
+              <div class="contact-img-container">
+                <img src="./assets/facebook.svg" alt="Facebook Logo" class="contact-img" />
+              </div>
+              &nbsp; Bones Tattoo Parlour
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <a href="https://www.instagram.com/bonestattooparlour/" target="_blank">
+              <div class="contact-img-container">
+                <img src="./assets/instagram.svg" alt="Instagram Logo" class="contact-img" />
+              </div>
+              &nbsp; Bones Tattoo Parlour
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <a href="https://www.instagram.com/bonestattooparlour/" target="_blank">
+              <div class="contact-img-container">
+                <img src="./assets/instagram.svg" alt="Instagram Logo" class="contact-img" />
+              </div>
+              &nbsp; bot.werk | artiest Denny
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <a href="mailto:bonestattooparlour@gmail.com">
+              <div class="contact-img-container">
+                <img src="./assets/mail.svg" alt="Mail Logo" class="contact-img" />
+              </div>
+              &nbsp; bonestattooparlour@gmail.com
+            </a>
+          </div>
+
+          <div class="contact-item">
+            <a
+              target="_blank"
+              href="https://www.google.be/maps/place/Cabaretstraat+9,+3290+Diest/@50.9843139,5.0493582,17z/data=!4m13!1m7!3m6!1s0x47c13f4d75d90537:0x21aae8d0be0a70c9!2sCabaretstraat+9,+3290+Diest!3b1!8m2!3d50.9843139!4d5.0515469!3m4!1s0x47c13f4d75d90537:0x21aae8d0be0a70c9!8m2!3d50.9843139!4d5.0515469"
+            >
+              <div class="contact-img-container">
+                <img src="./assets/map.svg" alt="Map Logo" class="contact-img" />
+              </div>
+              &nbsp; Cabaretstraat 9, 3290 Diest
+            </a>
+          </div>
+
+          <h1 class="hours-title">𝖔𝖕𝖊𝖓𝖎𝖓𝖌𝖘 𝖚𝖗𝖊𝖓</h1>
+          <div class="day">
+            Maandag:
+            <div class="hours">GESLOTEN</div>
+          </div>
+          <div class="day">
+            Dinsdag:
+            <div class="hours">12:00-18:00</div>
+          </div>
+          <div class="day">
+            Woensdag:
+            <div class="hours">10:00-12:15 &nbsp; 13:00-18:00</div>
+          </div>
+          <div class="day">
+            Donderdag:
+            <div class="hours">12:00-18:00</div>
+          </div>
+          <div class="day">
+            Vrijdag:
+            <div class="hours">10:00-12:15 &nbsp; 13:00-18:00</div>
+          </div>
+          <div class="day">
+            Zaterdag:
+            <div class="hours">10:00-12:15 &nbsp; 13:00-18:00</div>
+          </div>
+          <div class="day">
+            Zondag:
+            <div class="hours">GESLOTEN</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="care-modal">
+      <div class="care-modal-content">
+        <button class="close-modal close-care-modal">
+          <img src="./assets/close.svg" alt="Close button" class="footer-icon" />
+        </button>
+        <h1 class="care-title">𝖛𝖊𝖗𝖟𝖔𝖗𝖌𝖎𝖓𝖌</h1>
+        <div class="care-container">
+          <ul class="care-list">
+            <li>
+              <b>Verwijder de folie op het juiste moment.</b> Als je tattoo is gezet, wordt hij schoongemaakt en meestal
+              ingepakt met huishoudfolie. Dit is bedoeld om je tattoo te beschermen tegen bacteriën en andere
+              ziektekiemen. Verwijder dit folie niet eerder maar ook niet later dan de tattoo-artiest je heeft verteld.
+              Dat kan na een uur zijn of pas na een dag. De artiest weet wat het beste voor je tattoo is.
+            </li>
+            <li>
+              <b>Hou je tattoo goed schoon.</b> Heb je de folie verwijderd? Maak je tattoo dan meteen goed schoon met
+              lauwwarm water en zeepvrije pH-neutrale wasgel. Gebruik geen washandje bij het wassen en dep je tattoo
+              droog met een schone, zachte doek. Herhaal dit de eerste dagen twee keer per dag. Zo zorg je dat bacteriën
+              geen kans krijgen.
+            </li>
+            <li>
+              <b>Smeer je tattoo regelmatig in.</b> Het is belangrijk om je tattoo de eerste dagen heel regelmatig in te
+              smeren met een dun laagje zalf. De frequentie is bij iedereen wat anders; het gaat er vooral om dat je
+              tattoo nooit droog aanvoelt en je huid soepel blijft. Als je tattoo te droog wordt, geneest hij minder
+              snel en heb je kans op scheurtjes en barstjes die je tattoo beschadigen.
+            </li>
+            <li>
+              <b>Blijf van de korstjes af.</b> Het is heel verleidelijk om aan de korstjes en velletjes te krabben, maar
+              hou je in! Je hebt kans dat je tattoo er minder mooi van wordt en je loopt bovendien het risico dat het
+              gaat ontsteken.
+            </li>
+            <li>
+              <b>Blijf uit de zon.</b> Vermijd de zon tot je tatoeage echt helemaal is genezen. Zonnestralen (en ook de
+              stralen van de zonnebank) kunnen blaren op je tattoo veroorzaken. Ga ook niet in de zon met een
+              zonnecrème.
+            </li>
+            <li>
+              <b>Blijf uit het water.</b> Kort douchen met je tattoo is geen probleem. Maar zwemmen of in bad liggen
+              moet je nog even laten tot je tattoo helemaal genezen is. Zo voorkom je dat bacteriën uit het water in je
+              tatoeage komen.
+            </li>
+            <li>
+              <b>Laat je tattoo luchten.</b> Het is belangrijk om je tatoeage zoveel mogelijk aan de lucht te laten
+              drogen. Dek de wond dan ook niet af met verband, pleisters of folie. Het ligt er natuurlijk een beetje aan
+              waar je tattoo zit, maar als het kan is het beter om hem ook niet af te dekken met je kleding. Zorg er in
+              ieder geval voor dat je kleding los zit en schoon is. Anders heb je kans dat je kleren aan je tattoo gaan
+              plakken. Bij het loshalen trek je dan misschien velletjes mee.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="heading">𝕽𝖊𝖈𝖊𝖓𝖙 𝖜𝖊𝖗𝖐</h1>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/dog.jpg" alt="tattoo of chinese dog" />
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/chest.jpg" alt="chest tattoo of bear, tiger and dagger with eye" />
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/dagger.jpg" alt="tattoo of dagger with butterfly on" />
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/hand.jpg" alt="tattoo of hand holding flowers" />
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/india.jpg" alt="tattoo of indiad elephant" />
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/moth.jpg" alt="tattoo of moth" />
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/roses.jpg" alt="tattooo of roses" />
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/snake.jpg" alt="tattoo of snake with roses" />
+        </div>
+
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/paper.jpg" alt="tattoo design of devils" />
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/smiley.jpg" alt="tattoo of smiley with glitched effect" />
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/zwaluw.jpg" alt="tattoo of stwo swallows" />
+        </div>
+        <div class="gallery-item">
+          <img class="gallery-image" src="./assets/snake-head.jpg" alt="tattoo of snake head" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-icon-container">
+        <a href="https://www.instagram.com/bonestattooparlour/" target="_blank">
+          <img src="./assets/instagram.svg" alt="Instagram logo" class="footer-icon" />
+        </a>
+      </div>
+      <div class="footer-icon-container">
+        <a href="https://www.facebook.com/bonestattooparlour" target="_blank">
+          <img src="./assets/facebook.svg" alt="Facebook logo" class="footer-icon" />
+        </a>
+      </div>
+      <div class="footer-icon-container">
+        <a href="mailto:bonestattooparlour@gmail.com">
+          <img src="./assets/mail.svg" alt="Mail logo" class="footer-icon" />
+        </a>
+      </div>
+      <div class="footer-icon-container">
+        <a
+          target="_blank"
+          href="https://www.google.be/maps/place/Cabaretstraat+9,+3290+Diest/@50.9843139,5.0493582,17z/data=!4m13!1m7!3m6!1s0x47c13f4d75d90537:0x21aae8d0be0a70c9!2sCabaretstraat+9,+3290+Diest!3b1!8m2!3d50.9843139!4d5.0515469!3m4!1s0x47c13f4d75d90537:0x21aae8d0be0a70c9!8m2!3d50.9843139!4d5.0515469"
+        >
+          <img src="./assets/map.svg" alt="Map logo" class="footer-icon" />
+        </a>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

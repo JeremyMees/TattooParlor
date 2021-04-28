@@ -1,0 +1,404 @@
+body {
+  background-color: rgb(34, 34, 34);
+  color: #fefefe;
+  font-family: Roboto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:focus {
+  border: none;
+  outline: none;
+}
+
+.nav {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.brand {
+  display: inline;
+  font-size: 1.5em;
+  position: relative;
+  bottom: 7px;
+  padding: 5px;
+  width: 200px;
+}
+
+.nav-item {
+  display: inline;
+  float: right;
+  margin-left: 1em;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
+.appointment {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  border: 1px solid #ccc;
+}
+
+.appointment:hover {
+  background-color: #fefefe;
+  color: #000;
+  transition: ease 0.5s;
+  border-radius: 15px;
+}
+
+.invisible {
+  display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 15px;
+  top: 15px;
+  background-color: #1a1a1a;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 100;
+}
+
+.dropdown-topnav {
+  position: absolute;
+  top: 25px !important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+  margin-bottom: 1em;
+}
+
+.gallery {
+  display: flex;
+  margin: -1rem -1rem;
+}
+
+.gallery-item {
+  flex: 1 0 24rem;
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.15);
+  filter: grayscale(0%);
+}
+
+.heading {
+  text-align: center;
+}
+
+.topnav {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: none;
+  background-color: inherit;
+  position: relative;
+}
+
+.topnav-app {
+  width: 107px;
+}
+
+.topnav-item {
+  margin-top: 0.5em;
+}
+
+.topnav-item:hover {
+  cursor: pointer;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.icon {
+  display: block;
+  position: absolute;
+  right: 1em;
+  top: 0;
+}
+
+icon:hover {
+  cursor: pointer;
+}
+
+.topnav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.footer-icon-container {
+  width: 50px;
+  display: inline-block;
+  padding: 0.5em;
+}
+
+.footer-iconr:hover {
+  filter: invert(100%) sepia(0%) saturate(491%) hue-rotate(185deg) brightness(83%) contrast(115%);
+}
+
+.footer-icon {
+  filter: invert(93%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(106%) contrast(107%);
+  width: 100%;
+  height: 100%;
+}
+
+.artist-denny-modal {
+  display: none;
+  position: fixed;
+  z-index: 150;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(51, 51, 51);
+  background-color: rgba(51, 51, 51, 0.4);
+}
+
+.artist-denny-modal-content {
+  background-color: rgb(34, 34, 34);
+  margin: 5% auto;
+  padding: 1em;
+  padding-bottom: 1em;
+  width: 80%;
+  max-width: 700px;
+}
+
+.artist-name {
+  text-align: center;
+}
+
+.img-artist {
+  width: 100%;
+  height: 100%;
+}
+
+.img-artist-container {
+  width: 100%;
+  height: 100%;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.close-modal {
+  background: inherit;
+  border: none;
+  float: right;
+}
+
+.hours-modal {
+  display: none;
+  position: fixed;
+  z-index: 150;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(51, 51, 51);
+  background-color: rgba(51, 51, 51, 0.4);
+}
+
+.hours-modal-content {
+  background-color: rgb(34, 34, 34);
+  margin: 5% auto;
+  padding: 1em;
+  padding-bottom: 1em;
+  width: 80%;
+  max-width: 700px;
+}
+
+.hours-container {
+  font-size: 20px;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.hours {
+  float: right;
+}
+
+.hours-title {
+  text-align: center;
+}
+
+.care-modal {
+  display: none;
+  position: fixed;
+  z-index: 150;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(51, 51, 51);
+  background-color: rgba(51, 51, 51, 0.4);
+}
+
+.care-modal-content {
+  background-color: rgb(34, 34, 34);
+  margin: 5% auto;
+  padding: 1em;
+  padding-bottom: 1em;
+  width: 80%;
+  max-width: 700px;
+}
+
+.care-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.care-title {
+  text-align: center;
+}
+
+.care-list {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+.contact-img {
+  width: 100%;
+  height: 100%;
+  filter: invert(93%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(106%) contrast(107%);
+}
+
+.contact-img-container {
+  width: 25px;
+  position: relative;
+  top: 5px;
+  display: inline-block;
+}
+
+.mock-modal {
+  display: block;
+  position: fixed;
+  z-index: 150;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(51, 51, 51);
+  background-color: rgba(51, 51, 51, 0.4);
+}
+
+.mock-modal-content {
+  background-color: rgb(221, 208, 23);
+  margin: 5% auto;
+  padding: 1em;
+  padding-bottom: 1em;
+  width: 80%;
+  max-width: 700px;
+  color: #000 !important;
+}
+
+.middle {
+  text-align: center;
+}
+
+.mock-title {
+  text-align: center;
+}
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .topnav {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hours-container {
+    font-size: 15px;
+    width: 100%;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+}
